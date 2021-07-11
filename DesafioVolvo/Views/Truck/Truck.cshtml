@@ -1,0 +1,91 @@
+﻿@{
+    ViewData["Title"] = "Cadastro de Caminhões";
+}
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<script src="~/js/Truck/Truck.js"></script>
+<link href="~/css/StyleSheet.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+<!-- Page content -->
+<div id="page-content-wrapper">
+    <!-- Keep all page content within the page-content inset div! -->
+    <div class="page-content inset">
+        <div class="row" style="margin-top: 20px;">
+            <form method="post" role="form" class="form-horizontal" onsubmit="SetTruck()">
+                <fieldset>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">Cadastrar Caminhões</div>
+
+                        <div class="panel-body">
+                            <div class="form-group">
+
+                                <div class="col-md-11 control-label">
+                                    <p class="help-block">
+                                        <h11>*</h11>
+                                        Campo Obrigatório
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-2 control-label" for="Nome">
+                                    Modelo do Caminhão:
+                                    <h11>*</h11>
+                                </label>
+                                <div class="col-md-2">
+                                    <select required id="ddlModelo" name="ddlModelo" class="form-control" style="width:220px;"></select>
+                                </div>
+                            </div>
+
+                            <!-- Text input-->
+                            <div class="form-group">
+                                <label class="col-md-2 control-label" for="Nome">
+                                    Nome do Caminhão
+                                    <h11>*</h11>
+                                </label>
+                                <div class="col-md-8">
+                                    <input id="nome" name="nome" placeholder="" class="form-control input-md" required="" type="text" style="width:220px;">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-2 control-label" for="Nome">
+                                    Ano de Fabricação
+                                    <h11>*</h11>
+                                </label>
+                                <div class="col-md-8">
+                                    <input id="anoFabricacao" name="anoFabricacao" value="2021" disabled placeholder="" class="form-control input-md" required="" type="number" style="width:140px;">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-2 control-label" for="Nome">
+                                    Ano Modelo
+                                    <h11>*</h11>
+                                </label>
+                                <div class="col-md-8">
+                                    <input id="anoModelo" name="anoModelo" placeholder="" class="form-control input-md" required="" type="number" maxlength="4" style="width:140px;">
+                                </div>
+                            </div>
+
+                            <!-- Button (Double) -->
+                            <div class="form-group">
+                                <label class="col-md-2 control-label" for="Cadastrar"></label>
+                                <div class="col-md-8">
+                                    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Salvar</button>
+                                    <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+
+@*</div>*@
