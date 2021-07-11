@@ -1,4 +1,4 @@
-<center><img src="https://w7.pngwing.com/pngs/270/472/png-transparent-ab-volvo-volvo-trucks-volvo-fh-volvo-fm-car-ab-volvo-truck-logo-car.png" width="200" height="80"></center>
+<center><img src="https://pbs.twimg.com/profile_images/627115095949246464/ZKi0aaPv.jpg" width="250" height="250"></center>
 
 # Projeto
 
