@@ -1,5 +1,3 @@
-<img src="https://pbs.twimg.com/profile_images/627115095949246464/ZKi0aaPv.jpg" width="250" height="250">
-
 # Projeto
 
 DESAFIO VOLVO
