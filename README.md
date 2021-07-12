@@ -4,7 +4,13 @@ DESAFIO VOLVO
 
 ## Descrição
 
-Desenvolvimento de sistema de controle e gerenciamento de caminhões VOLVO
+- Controle e gerenciamento de caminhões VOLVO.
+- O sistema está dividido em dois menus, conforme imagem abaixo. 
+  - No primeiro: "Cadastro de caminhõs" é possível fazer o cadastro de determinados modelos de caminhões VOLVO, segundo os critérios de aceite;
+  - No segundo: "Gerenciamento de caminhões" é possível visualizar todos os caminhões cadastrados além de realizar edição e deleção;
+
+![image](https://user-images.githubusercontent.com/2862975/125217273-9fdd8a00-e296-11eb-99e7-29dc9d345c02.png)
+
 
 ### Pré-requisitos
 
