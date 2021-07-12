@@ -37,19 +37,24 @@ Microsoft.EntityFrameworkCore.Tools
 
 ## Recuros e funcionalidades
 
-- O sistema foi desenvolvido exclusivamente em .NET Core 3.1
+- O sistema foi desenvolvido exclusivamente em .NET Core 3.1;
+
+- Base de dados local (SQLite);
+
+- ORM para mapear as tabelas de base de dados;
+  - "Migrations" para criação da base de dados; 
+  - Criação da base de dados automática (sem a necessidade de utilizar algum comando adicional);
 
 - Boas práticas de desenvolvimento
 
 - Clean code.
 
-- Conceitos de componentização e reaproveitamento de código
-
-
 ## Testes Unitários
 
 - Existe um projeto de teste unitário chamado DesafioVolvoTest, este faz o teste de algumas validações requerentes.
-  
+  - Validação da listagem dos modelos;
+  - Validação da regra do ano atual para a fabricação;
+  - Validação do ano/modelo; 
 
 ## Versão
 
